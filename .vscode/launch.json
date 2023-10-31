@@ -3,20 +3,20 @@
     // Hover to view descriptions of existing attributes.
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
-    "configurations": [     
-        {
-            "type": "java",
-            "name": "Current File",
-            "request": "launch",
-            "mainClass": "${file}"  
-        },
+    "configurations": [
         {
             "type": "java",
             "name": "App",
             "request": "launch",
             "mainClass": "App",
-            "projectName": "Fuel Simulation_8b254b41",
-            "args": "-500 18050" 
+            "projectName": "FuelSim_3208f6f6",
+            "args": "5000 15000"    // values for quick testing when launching within VS Code
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
         }
     ]
 }

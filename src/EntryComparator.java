@@ -1,5 +1,9 @@
 import java.util.Comparator;
 
+/**
+ * Used to sort a list of Entry objects in relation to a given altitude.
+ * @author eppu.syyrakki@gmail.com
+ */
 public class EntryComparator implements Comparator<Entry> {
     private final int alt;
 

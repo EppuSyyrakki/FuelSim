@@ -1,6 +1,4 @@
-public class App {
-    
-
+public class App {    
     public static void main(String[] args) throws Exception {
         Table table = new Table("FuelTable.csv");
         int currentAlt = 0;

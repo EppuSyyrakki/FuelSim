@@ -1,5 +1,6 @@
 /**
  * Represents a single data point in the Table class.
+ * @author eppu.syyrakki@gmail.com
  */
 public class Entry {
     public final int ALTITUDE;

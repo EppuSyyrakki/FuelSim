@@ -5,6 +5,7 @@ import java.util.Scanner;
 /**
  * Represents storage and calculation functionality for calculating airplane fuel consumption when 
  * changing altitudes, according to a CSV file.
+ * @author eppu.syyrakki@gmail.com
  */
 public class Table { 
     private final ArrayList<Entry> climb;
